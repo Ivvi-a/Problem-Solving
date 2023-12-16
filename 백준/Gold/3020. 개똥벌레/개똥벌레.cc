@@ -38,16 +38,16 @@ void getAnswer() {
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(NULL); cout.tie(NULL);
+	ios::sync_with_stdio(false);
+	cin.tie(NULL); cout.tie(NULL);
     
 	cin >> N >> H;
-
+	
 	// 높이에 따라 개수 세기 (index = 높이)
 	for (int i = 0; i < N; i++) {
 		int h;
 		cin >> h;
-
+	
 		switch (i % 2) {
 			// 짝수 : bottom
 			case 0:
@@ -58,10 +58,10 @@ int main()
 				top[H + 1 - h]++;
 		}
 	}
-
+	
 	prefix(); // 누적 합 구하기
 	getAnswer(); // 정답 구하기
-
+	
 	// 정답
 	cout << ans << " " << cnt;
 }
