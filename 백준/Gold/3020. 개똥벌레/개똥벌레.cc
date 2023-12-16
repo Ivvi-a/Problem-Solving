@@ -38,6 +38,9 @@ void getAnswer() {
 
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL); cout.tie(NULL);
+    
 	cin >> N >> H;
 
 	// 높이에 따라 개수 세기 (index = 높이)
