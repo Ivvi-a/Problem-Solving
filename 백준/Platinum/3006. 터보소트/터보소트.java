@@ -1,3 +1,4 @@
+// 43404 KB, 1432 ms
 import java.io.*;
 import java.util.*;
 
@@ -32,11 +33,12 @@ public class Main {
         makeTree(1, 1, N);
 
         // 계산, 출력
+        StringBuilder sb = new StringBuilder();
         int idx;
         for(int i=0; i<(N+1)/2; i++){
             // 1 ~
             idx = arr[i].idx;
-            System.out.println(getSum(1,1,N,1,idx-1));
+            sb.append(getSum(1,1,N,1,idx-1)).append("\n");
             updateTree(1,1,N,idx);
 
             // 홀수인 경우 종료 조건
@@ -46,9 +48,10 @@ public class Main {
 
             // N ~
             idx = arr[N-1-i].idx;
-            System.out.println(getSum(1,1,N,idx+1,N));
+            sb.append(getSum(1,1,N,idx+1,N)).append("\n");
             updateTree(1,1,N,idx);
         }
+        System.out.println(sb);
     }
 
     static void init() throws IOException {
