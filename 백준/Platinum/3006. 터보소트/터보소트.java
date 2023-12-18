@@ -75,8 +75,8 @@ public class Main {
 
         tree[node] -= 1;
 
-        int mid = (start+end)/2;
         if(start != end){
+            int mid = (start+end)/2;
             updateTree(node*2, start, mid, target);
             updateTree(node*2+1, mid+1, end, target);
         }
