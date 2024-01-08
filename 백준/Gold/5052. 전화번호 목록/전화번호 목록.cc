@@ -62,13 +62,13 @@ int main() {
 		Trie* root = new Trie();
 		
 
-		// 입력 받기
+		// 입력 받기, 트라이 생성
 		for(int i=0; i<n; i++) {
 			cin >> phoneNumber[i];
 			root->insert(phoneNumber[i]);
 		}
 
-		// 짧은 순으로 검사
+		// 찾기
 		for (int i = 0; i < n; i++) {
 			if (!root->search(phoneNumber[i])) {
 				cout << "NO\n";
