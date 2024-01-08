@@ -53,12 +53,14 @@ int main() {
 	int t;
 	cin >> t;
 
+	char phoneNumber[10001][11];
+
 	tc:while (t--) {
 		int n;
 		cin >> n;
 		
 		Trie* root = new Trie();
-		char phoneNumber[10001][11];
+		
 
 		// 입력 받기
 		for(int i=0; i<n; i++) {
@@ -70,13 +72,16 @@ int main() {
 		for (int i = 0; i < n; i++) {
 			if (!root->search(phoneNumber[i])) {
 				cout << "NO\n";
+				root->~Trie();
 				goto tc;
 			}
 		}
 		
 		cout << "YES\n";
+		root->~Trie();
 
 	}
+	//delete[] phoneNumber;
 
 	return 0;
 	
