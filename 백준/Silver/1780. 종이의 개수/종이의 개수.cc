@@ -6,7 +6,23 @@ int arr[2188][2188];
 int cnt1, cnt2, cnt3 = 0;
 
 void check(int size, int x, int y) {
+	// cout << "size : " << size << " / x : " << x << " / y : " << y << "\n";
+
 	int num = arr[y][x];
+
+	if (size == 1) {
+		if (num == -1) {
+			cnt1++;
+		}
+		else if (num == 0) {
+			cnt2++;
+		}
+		else {
+			cnt3++;
+		}
+		return;
+	}
+
 	bool flag = true;
 
 	// (x,y)부터 시작하는 가로세로 size 크기의 배열을 검사
