@@ -3,10 +3,14 @@
 <br>
 
 ## 백준(baekjoon)
-<p>Profile: https://www.acmicpc.net/user/ivvi_a</p>
-<p>Link: https://www.acmicpc.net/</p>
+🔍 [Baekjoon Online Judge](https://www.acmicpc.net) <br>
+👩‍💻 [Profile](https://www.acmicpc.net/user/ivvi_a)
 <br>
 
+## SWEA
+🔍 [SW Expert Academy](https://swexpertacademy.com/main/main.do) <br>
+👩‍💻 [Profile](https://swexpertacademy.com/main/userpage/home/userHome.do?userId=AYj7Id5q9gUDFASl)
+
 ## 프로그래머스(programmers)
-<p>Link: https://school.programmers.co.kr/learn/challenges?order=recent</p>
+🔍 [Programmers](https://school.programmers.co.kr/learn/challenges?order=recent)
 <br>
