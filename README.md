@@ -12,16 +12,11 @@
 
 ## Search
 - [Binary Search](https://github.com/Ivvi-a/Problem-Solving/tree/main/Algorithms/Search/Binary%20Search)
-- [BFS]()
-- [DFS]()
-
-## Strategies
-- [Prefix sum]()
-- [Two-Pointer]()
-- [Sliding Window]()
+- [BFS](https://github.com/Ivvi-a/Problem-Solving/tree/main/Algorithms/Search/BFS)
+- [DFS](https://github.com/Ivvi-a/Problem-Solving/tree/main/Algorithms/Search/DFS)
 
 ## Graph
-- [Union-Find]()
+- [Union-Find](https://github.com/Ivvi-a/Problem-Solving/tree/main/Algorithms/Graph/Union-Find)
 - [Topology Sort]()
 - [Dijkstra]()
 - [Floyd-Warshall]()
@@ -34,3 +29,11 @@
 
 ## Dynamic Programming
 - [Knapsack Problem]()
+
+## Etc
+- [Prefix sum]()
+- [Two-Pointer]()
+- [Sliding Window]()
+
+# Java
+- [Comparator]()
