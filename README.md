@@ -1,7 +1,7 @@
 # Problem Solving
 <p>PS에 사용되는 알고리즘을 정리하고, 문제 풀이를 저장하기 위한 repository</p>
 
-#### [Baekjoon Online Judge](https://www.acmicpc.net/user/ivvi_a)
+#### [Baekjoon Online Judge](https://solved.ac/profile/ivvi_a)
 
 #### [SW Expert Academy](https://swexpertacademy.com/main/userpage/home/userHome.do?userId=AYj7Id5q9gUDFASl)
 
