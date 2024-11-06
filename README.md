@@ -1,16 +1,36 @@
 # Problem Solving
-<p>PS에 사용되는 알고리즘을 정리하고, 문제 풀이를 보관하기 위한 repository</p>
-<br>
+<p>PS에 사용되는 알고리즘을 정리하고, 문제 풀이를 저장하기 위한 repository</p>
 
-## 백준(baekjoon)
-🔍 [Baekjoon Online Judge](https://www.acmicpc.net) <br>
-👩‍💻 [Profile](https://www.acmicpc.net/user/ivvi_a)
-<br>
+#### [Baekjoon Online Judge](https://www.acmicpc.net/user/ivvi_a)
 
-## SWEA
-🔍 [SW Expert Academy](https://swexpertacademy.com/main/main.do) <br>
-👩‍💻 [Profile](https://swexpertacademy.com/main/userpage/home/userHome.do?userId=AYj7Id5q9gUDFASl)
+#### [SW Expert Academy](https://swexpertacademy.com/main/userpage/home/userHome.do?userId=AYj7Id5q9gUDFASl)
 
-## 프로그래머스(programmers)
-🔍 [Programmers](https://school.programmers.co.kr/learn/challenges?order=recent)
-<br>
+#### [CodeSignal](https://app.codesignal.com/profile/yjyk9679)
+
+## Math
+- [Sieve of Eratosthenes]()
+
+## Search
+- [Binary Search]()
+- [BFS]()
+- [DFS]()
+
+## Strategies
+- [Prefix sum]()
+- [Two-Pointer]()
+- [Sliding Window]()
+
+## Graph
+- [Union-Find]()
+- [Topology Sort]()
+- [Dijkstra]()
+- [Floyd-Warshall]()
+- [Bellman-Ford]()
+- [Minimum Spanning Tree]()
+
+## Tree
+- [Segment Tree]()
+- [Trie]()
+
+## Dynamic Programming
+- [Knapsack Problem]()
