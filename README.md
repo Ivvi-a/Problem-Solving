@@ -8,10 +8,10 @@
 [CodeSignal](https://app.codesignal.com/profile/yjyk9679)
 
 ## Math
-- [Sieve of Eratosthenes](https://github.com/Ivvi-a/Problem-Solving/blob/main/Algorithms/Math/Sieve%20of%20Eratosthenes.java)
+- [Sieve of Eratosthenes](https://github.com/Ivvi-a/Problem-Solving/blob/main/Algorithms/Math/Sieve%20of%20Eratosthenes)
 
 ## Search
-- [Binary Search]()
+- [Binary Search](https://github.com/Ivvi-a/Problem-Solving/tree/main/Algorithms/Search/Binary%20Search)
 - [BFS]()
 - [DFS]()
 
