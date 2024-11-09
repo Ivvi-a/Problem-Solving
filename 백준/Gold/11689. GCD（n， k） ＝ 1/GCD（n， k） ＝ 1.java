@@ -16,7 +16,7 @@ public class Main {
 
     // 소수인 약수 구하기
     static void getDivisor(){
-        int sqrt = (int) Math.sqrt(n)+1;
+        int sqrt = (int) Math.sqrt(n)+1; // 제곱근까지
         isPrime = new boolean[sqrt+1];
         Arrays.fill(isPrime,true);
 
@@ -30,15 +30,15 @@ public class Main {
                 if (res % i == 0) {
                     divisor.add((long) i);
                     while (res % i == 0) {
-                        res /= i;
+                        res /= i; // 소인수분해
                     }
                 }
             }
         }
-        if(res !=1) divisor.add(res);
+        if(res !=1) divisor.add(res); // 소인수분해 완료된 경우(res=1) 제외하고, 마지막 소수 넣기
     }
 
-    // 여집합
+    // 서로소 아닌 것 구하기
     static long countExtraSet(int idx, long val, int cnt){
         long set = 0;
 
