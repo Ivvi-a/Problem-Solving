@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-#define LIMIT 10000001;
+#define LIMIT 10000001
 using namespace std;
 
 int main()
@@ -21,7 +21,7 @@ int main()
         cin >> cost[i][0] >> cost[i][1] >> cost[i][2];
     }
 
-    fill(&dp[0][0][0], &dp[1][2][3], 10000001);
+    fill(&dp[0][0][0], &dp[1][2][3], LIMIT);
 
     for (int i = 0; i < 3; i++) {
         dp[1][i][i] = cost[1][i];
