@@ -1,11 +1,10 @@
 import java.util.*;
 
 class Person{
-    int num, parent, won, get;
+    int num, parent, get;
     public Person(int num){
         this.num = num;
         this.parent = -1;
-        this.won = 0;
         this.get = 0;
     }
 }
