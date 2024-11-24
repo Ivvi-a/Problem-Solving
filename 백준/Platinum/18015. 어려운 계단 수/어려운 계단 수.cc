@@ -2,8 +2,7 @@
 #include<cstring>
 #define MOD 1000000000
 using namespace std;
-typedef long long ll;
-ll dp[2001][2001][2][2];
+int dp[2001][2001][2][2]; // dp[길이][마지막자릿수][0 존재여부][B-1 존재여부]
 
 int main() {
     ios::sync_with_stdio(false);
@@ -16,9 +15,8 @@ int main() {
         cout << 0;
         return 0;
     }
-
-    // dp[길이][마지막자릿수][0 존재여부][B-1 존재여부]
-    memset(dp, 0LL, sizeof dp);
+    
+    memset(dp, 0, sizeof dp);
 
     dp[1][B-1][0][1] = 1;
     for (int i = 1; i < B-1; i++) {
@@ -51,7 +49,6 @@ int main() {
     int ans = 0;
 
     for (int i = 0; i < B; i++) {
-        // cout << "i = " << i << ", dp = " << dp[N][i][1][1] << "\n";
         ans = (ans + dp[N][i][1][1]) % MOD;
     }
 
