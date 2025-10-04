@@ -5,7 +5,7 @@
 
 using namespace std;
 
-bool isAllSame(vector<vector<int>> v, int x, int y, int len) {
+bool isAllSame(vector<vector<int>>& v, int x, int y, int len) {
 	for (int i = y; i < y + len; i++) {
 		for (int j = x; j < x + len; j++) {
 			if(v[y][x] != v[i][j]) {
